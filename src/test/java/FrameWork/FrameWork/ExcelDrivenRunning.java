@@ -56,6 +56,8 @@ public class ExcelDrivenRunning extends BaseClass {
 		PaymentPage paymentpage = cartpage.checkoutpage();
 		paymentpage.PlaceOrder();
 		paymentpage.confirmationmessage();
+		String confirmationmessage = paymentpage.confirmationmessage();
+		Assert.assertTrue(confirmationmessage.equalsIgnoreCase("Thankyou for the order."));
 
 		System.out.println("Execution completed");
 
