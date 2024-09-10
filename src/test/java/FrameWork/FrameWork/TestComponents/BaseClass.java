@@ -20,7 +20,7 @@ public class BaseClass {
 	public WebDriver Initializedriver() throws IOException {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:/Users/Intelliagent1/Downloads/FrameWork/src/test/java/FrameWork/FrameWork/Resources/GlobalData.properties");
+				"C:\\Users\\Intelliagent1\\Downloads\\CICD\\FrameWork\\src\\test\\java\\FrameWork\\FrameWork\\Resources\\GlobalData.properties");
 		prop.load(fis);
 		//String browsername  = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
 		String browsername = prop.getProperty("browser");
