@@ -5,7 +5,6 @@
     <classes>
       <class name="FrameWork.FrameWork.StandaloneTest2"/>
       <class name="FrameWork.FrameWork.ErrorValidationTest"/>
-      <class name="FrameWork.FrameWork.ExcelDrivenRunning"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

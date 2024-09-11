@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[ErrorMessage validated successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-11T01:10:37 IST" name="Suite" finished-at="2024-09-11T01:11:27 IST" duration-ms="50598">
+  <suite started-at="2024-09-11T12:41:10 IST" name="Suite" finished-at="2024-09-11T12:41:42 IST" duration-ms="32016">
     <groups>
     </groups>
-    <test started-at="2024-09-11T01:10:37 IST" name="Test" finished-at="2024-09-11T01:11:27 IST" duration-ms="50598">
+    <test started-at="2024-09-11T12:41:10 IST" name="Test" finished-at="2024-09-11T12:41:42 IST" duration-ms="32016">
       <class name="FrameWork.FrameWork.ErrorValidationTest">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:10:57 IST" name="launchapplication" finished-at="2024-09-11T01:10:59 IST" duration-ms="1448" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:32 IST" name="launchapplication" finished-at="2024-09-11T12:41:35 IST" duration-ms="2749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:10:59 IST" name="LoginErrorValidation" finished-at="2024-09-11T01:11:00 IST" duration-ms="977" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:35 IST" name="LoginErrorValidation" finished-at="2024-09-11T12:41:36 IST" duration-ms="1481" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ErrorMessage validated successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:11:00 IST" name="closebrowser" finished-at="2024-09-11T01:11:00 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:36 IST" name="closebrowser" finished-at="2024-09-11T12:41:36 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:11:00 IST" name="launchapplication" finished-at="2024-09-11T01:11:03 IST" duration-ms="3386" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:36 IST" name="launchapplication" finished-at="2024-09-11T12:41:38 IST" duration-ms="1705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:11:03 IST" name="ProductErrorValidation" finished-at="2024-09-11T01:11:07 IST" duration-ms="3627" status="PASS">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:38 IST" name="ProductErrorValidation" finished-at="2024-09-11T12:41:42 IST" duration-ms="3900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@4b14c583]" started-at="2024-09-11T01:11:07 IST" name="closebrowser" finished-at="2024-09-11T01:11:07 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ErrorValidationTest@6e20b53a]" started-at="2024-09-11T12:41:42 IST" name="closebrowser" finished-at="2024-09-11T12:41:42 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- FrameWork.FrameWork.ErrorValidationTest -->
       <class name="FrameWork.FrameWork.StandaloneTest2">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:37 IST" name="launchapplication" finished-at="2024-09-11T01:10:39 IST" duration-ms="2203" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:10 IST" name="launchapplication" finished-at="2024-09-11T12:41:13 IST" duration-ms="2374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:39 IST" name="StandAloneTest2" data-provider="data" finished-at="2024-09-11T01:10:45 IST" duration-ms="5693" status="PASS">
+        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:13 IST" name="StandAloneTest2" data-provider="data" finished-at="2024-09-11T12:41:18 IST" duration-ms="5574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StandAloneTest2 -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:45 IST" name="closebrowser" finished-at="2024-09-11T01:10:45 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:18 IST" name="closebrowser" finished-at="2024-09-11T12:41:18 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:45 IST" name="launchapplication" finished-at="2024-09-11T01:10:48 IST" duration-ms="2895" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:18 IST" name="launchapplication" finished-at="2024-09-11T12:41:21 IST" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:48 IST" name="StandAloneTest2" data-provider="data" finished-at="2024-09-11T01:10:53 IST" duration-ms="5723" status="PASS">
+        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:21 IST" name="StandAloneTest2" data-provider="data" finished-at="2024-09-11T12:41:27 IST" duration-ms="6399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,95 +93,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StandAloneTest2 -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:53 IST" name="closebrowser" finished-at="2024-09-11T01:10:54 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:27 IST" name="closebrowser" finished-at="2024-09-11T12:41:28 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:54 IST" name="launchapplication" finished-at="2024-09-11T01:10:55 IST" duration-ms="1353" status="PASS">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:28 IST" name="launchapplication" finished-at="2024-09-11T12:41:29 IST" duration-ms="1654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:55 IST" name="OrderHistoryTest" finished-at="2024-09-11T01:10:57 IST" depends-on-methods="FrameWork.FrameWork.StandaloneTest2.StandAloneTest2" duration-ms="2387" status="PASS">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:29 IST" name="OrderHistoryTest" finished-at="2024-09-11T12:41:32 IST" depends-on-methods="FrameWork.FrameWork.StandaloneTest2.StandAloneTest2" duration-ms="2643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@769e7ee8]" started-at="2024-09-11T01:10:57 IST" name="closebrowser" finished-at="2024-09-11T01:10:57 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.StandaloneTest2@7193666c]" started-at="2024-09-11T12:41:32 IST" name="closebrowser" finished-at="2024-09-11T12:41:32 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- FrameWork.FrameWork.StandaloneTest2 -->
-      <class name="FrameWork.FrameWork.ExcelDrivenRunning">
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:08 IST" name="launchapplication" finished-at="2024-09-11T01:11:10 IST" duration-ms="2595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapplication -->
-        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:10 IST" name="StandAloneTest2" data-provider="exceldata" finished-at="2024-09-11T01:11:16 IST" duration-ms="5553" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amruta@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amruta@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ZARA COAT 3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StandAloneTest2 -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:16 IST" name="closebrowser" finished-at="2024-09-11T01:11:16 IST" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:16 IST" name="launchapplication" finished-at="2024-09-11T01:11:18 IST" duration-ms="2217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapplication -->
-        <test-method signature="StandAloneTest2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:18 IST" name="StandAloneTest2" data-provider="exceldata" finished-at="2024-09-11T01:11:23 IST" duration-ms="5107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VenkateshShetty@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amruta@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ADIDAS ORIGINAL]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StandAloneTest2 -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:23 IST" name="closebrowser" finished-at="2024-09-11T01:11:23 IST" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchapplication()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:23 IST" name="launchapplication" finished-at="2024-09-11T01:11:25 IST" duration-ms="1546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchapplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:25 IST" name="OrderHistoryTest" finished-at="2024-09-11T01:11:27 IST" depends-on-methods="FrameWork.FrameWork.ExcelDrivenRunning.StandAloneTest2" duration-ms="2398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:FrameWork.FrameWork.ExcelDrivenRunning@2a4fb17b]" started-at="2024-09-11T01:11:27 IST" name="closebrowser" finished-at="2024-09-11T01:11:27 IST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- FrameWork.FrameWork.ExcelDrivenRunning -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
