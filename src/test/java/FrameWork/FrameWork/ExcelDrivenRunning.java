@@ -39,7 +39,7 @@ public class ExcelDrivenRunning extends BaseClass {
 	String productname = "ZARA COAT 3";
 	DataFormatter df = new DataFormatter();
 
-	@Test(dataProvider = "exceldata")
+	@Test(dataProvider = "ExcelData")
 	public void StandAloneTest2(String EmailId, String Password, String productname)
 			throws IOException, InterruptedException {
 
@@ -74,7 +74,7 @@ public class ExcelDrivenRunning extends BaseClass {
 		Assert.assertTrue(true);
 	}
 
-	@DataProvider(name = "exceldata")
+	@DataProvider(name = "ExcelData")
 	public Object[][] ExcelData() throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream(
 				"C:/Users/Intelliagent1/Downloads/EcommerceCredentialsLogin.xlsx");
