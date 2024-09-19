@@ -32,16 +32,10 @@ public class ErrorValidationTest extends BaseClass {
 		String productname = "ZARA COAT 3";
 
 		loginpage.LoginApplication("amruta@outlook.com", "Amruta@@123");
-		Assert.assertEquals("Incorrect email or password.", loginpage.ErrorMessage());
+		Assert.assertEquals("Incorrect email password.", loginpage.ErrorMessage());
 		Reporter.log("ErrorMessage validated successfully", true);
-		//WebElement element = driver.findElement(By.cssSelector(".toast-error"));
-		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  //-- wholepage screenshot
-		//File src  = element.getScreenshotAs(OutputType.FILE);   -- particular element screenshot
-		FileUtils.copyFile(src, new File("C:\\Users\\Intelliagent1\\Downloads\\FrameWork\\Screenshot\\errorscreenshot.png"));
 
 	}
-	
-	
 
 	@Test
 	public void ProductErrorValidation() throws InterruptedException {

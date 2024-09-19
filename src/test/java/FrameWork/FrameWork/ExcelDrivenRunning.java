@@ -76,8 +76,7 @@ public class ExcelDrivenRunning extends BaseClass {
 
 	@DataProvider(name = "ExcelData")
 	public Object[][] ExcelData() throws EncryptedDocumentException, IOException {
-		FileInputStream fis = new FileInputStream(
-				"C:/Users/Intelliagent1/Downloads/EcommerceCredentialsLogin.xlsx");
+		FileInputStream fis = new FileInputStream("C:/Users/Intelliagent1/Downloads/EcommerceCredentialsLogin.xlsx");
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheetAt(0);
 		int rowcount = sheet.getPhysicalNumberOfRows();
@@ -88,7 +87,7 @@ public class ExcelDrivenRunning extends BaseClass {
 		for (int i = 0; i < rowcount - 1; i++) {
 			Row row = sheet.getRow(i + 1);
 			for (int j = 0; j < colcount; j++) {
-				Cell cell=row.getCell(j);
+				Cell cell = row.getCell(j);
 				data[i][j] = df.formatCellValue(cell);
 			}
 		}

@@ -36,7 +36,8 @@ public class MyCartPage extends AbstractComponents {
 
 	public Boolean verifymatch(String productname) {
 		List<WebElement> cartedproducts = CartProductConfirmation();
-		Boolean productmatch = cartedprod.stream().anyMatch(cartedprod -> cartedprod.getText().equalsIgnoreCase(productname));
+		Boolean productmatch = cartedprod.stream()
+				.anyMatch(cartedprod -> cartedprod.getText().equalsIgnoreCase(productname));
 		return productmatch;
 
 	}

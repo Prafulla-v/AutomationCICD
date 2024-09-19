@@ -30,7 +30,7 @@ public class OrderPage {
 	}
 
 	public Boolean OrderConfirmation(String productname) {
-		
+
 		List<WebElement> products = ProductConfirmation();
 		Boolean match = products.stream().anyMatch(cartedprod -> cartedprod.getText().equalsIgnoreCase(productname));
 		return match;

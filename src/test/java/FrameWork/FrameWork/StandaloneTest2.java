@@ -37,7 +37,8 @@ public class StandaloneTest2 extends BaseClass {
 	String productname = "ZARA COAT 3";
 
 	@Test(dataProvider = "data")
-	public void StandAloneTest2(String EmailId, String Password, String productname) throws IOException, InterruptedException {
+	public void StandAloneTest2(String EmailId, String Password, String productname)
+			throws IOException, InterruptedException {
 
 		loginpage.LoginApplication(EmailId, Password);
 		ProductPage productpage = new ProductPage(driver);
@@ -59,7 +60,7 @@ public class StandaloneTest2 extends BaseClass {
 
 	}
 
-	@Test(dependsOnMethods="StandAloneTest2")
+	@Test(dependsOnMethods = "StandAloneTest2")
 	public void OrderHistoryTest() throws InterruptedException {
 
 		loginpage.LoginApplication("amruta@outlook.com", "Amruta@123");
@@ -69,11 +70,11 @@ public class StandaloneTest2 extends BaseClass {
 		Boolean productmatch = orderpage.OrderConfirmation(productname);
 		Assert.assertTrue(true);
 	}
-	
 
 	@DataProvider
 	public Object[][] data() {
-		return new Object[][] {{"amruta@outlook.com", "Amruta@123", "ZARA COAT 3"}, {"VenkateshShetty@outlook.com","Amruta@123","ADIDAS ORIGINAL"}};
+		return new Object[][] { { "amruta@outlook.com", "Amruta@123", "ZARA COAT 3" },
+				{ "VenkateshShetty@outlook.com", "Amruta@123", "ADIDAS ORIGINAL" } };
 	}
 
 //	@DataProvider
