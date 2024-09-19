@@ -148,7 +148,7 @@
 					<version>3.5.0</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>TestSuites/ParallelTesting.xml</suiteXmlFile>
+							<suiteXmlFile>TestSuites/BatchExecution.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
